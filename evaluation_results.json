@@ -1,0 +1,82 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.810126582278481,
+    "precision_weighted": 0.8116007547763189,
+    "recall_weighted": 0.810126582278481,
+    "f1_weighted": 0.8073111404594825,
+    "confusion_matrix": [
+      [
+        23,
+        3,
+        0
+      ],
+      [
+        5,
+        23,
+        5
+      ],
+      [
+        0,
+        2,
+        18
+      ]
+    ],
+    "classification_report": "                     precision    recall  f1-score   support\n\nAverage Performance       0.82      0.70      0.75        33\n   Good Performance       0.78      0.90      0.84        20\n  Needs Improvement       0.82      0.88      0.85        26\n\n           accuracy                           0.81        79\n          macro avg       0.81      0.83      0.81        79\n       weighted avg       0.81      0.81      0.81        79\n"
+  },
+  "Decision Tree": {
+    "accuracy": 0.8481012658227848,
+    "precision_weighted": 0.850351617440225,
+    "recall_weighted": 0.8481012658227848,
+    "f1_weighted": 0.8483364031821924,
+    "confusion_matrix": [
+      [
+        23,
+        3,
+        0
+      ],
+      [
+        3,
+        28,
+        2
+      ],
+      [
+        0,
+        4,
+        16
+      ]
+    ],
+    "classification_report": "                     precision    recall  f1-score   support\n\nAverage Performance       0.80      0.85      0.82        33\n   Good Performance       0.89      0.80      0.84        20\n  Needs Improvement       0.88      0.88      0.88        26\n\n           accuracy                           0.85        79\n          macro avg       0.86      0.84      0.85        79\n       weighted avg       0.85      0.85      0.85        79\n"
+  },
+  "Random Forest": {
+    "accuracy": 0.8481012658227848,
+    "precision_weighted": 0.8517580872011252,
+    "recall_weighted": 0.8481012658227848,
+    "f1_weighted": 0.8490026257005134,
+    "confusion_matrix": [
+      [
+        22,
+        4,
+        0
+      ],
+      [
+        4,
+        28,
+        1
+      ],
+      [
+        0,
+        3,
+        17
+      ]
+    ],
+    "classification_report": "                     precision    recall  f1-score   support\n\nAverage Performance       0.80      0.85      0.82        33\n   Good Performance       0.94      0.85      0.89        20\n  Needs Improvement       0.85      0.85      0.85        26\n\n           accuracy                           0.85        79\n          macro avg       0.86      0.85      0.85        79\n       weighted avg       0.85      0.85      0.85        79\n"
+  },
+  "cross_validation_best_model_f1": [
+    0.8719951778179628,
+    0.8223114174854681,
+    0.8621343807438651,
+    0.7739513526929759,
+    0.911984519472703
+  ],
+  "best_model": "Random Forest"
+}
