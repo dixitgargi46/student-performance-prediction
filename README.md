@@ -57,3 +57,13 @@ The terminal asks for student details and prints one predicted category with obs
 
 ## Limitations
 The dataset is from secondary-school students in Portugal, not a representative dataset of all colleges or countries. Some fields requested in the project brief are not present in the source dataset. The model should be treated as an educational demonstration, not a high-stakes student assessment tool.
+
+## Project Screenshots
+### Performance Categories
+![Performance Categories](outputs/graphs/performance_categories.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](outputs/graphs/correlation_heatmap.png)
+
+### Previous vs Final Marks
+![Previous vs Final Marks](outputs/graphs/previous_vs_final_marks.png)
