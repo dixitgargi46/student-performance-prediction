@@ -67,3 +67,6 @@ The dataset is from secondary-school students in Portugal, not a representative 
 
 ### Previous vs Final Marks
 ![Previous vs Final Marks](outputs/graphs/previous_vs_final_marks.png)
+
+### Sample Prediction Output
+![Sample Prediction](sample_prediction.png)
